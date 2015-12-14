@@ -14,6 +14,13 @@
 		4C198A9A1C1E79A800ADB8D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C198A981C1E79A800ADB8D1 /* LaunchScreen.storyboard */; };
 		4C198AA51C1E79A800ADB8D1 /* cunyprime1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C198AA41C1E79A800ADB8D1 /* cunyprime1Tests.swift */; };
 		4C198AB01C1E79A800ADB8D1 /* cunyprime1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C198AAF1C1E79A800ADB8D1 /* cunyprime1UITests.swift */; };
+		4C198AC61C1E7D1100ADB8D1 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C198AC11C1E7D1100ADB8D1 /* WebView.swift */; };
+		4CA56CC51C1EB56B00CCD4BD /* sWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA56CC41C1EB56B00CCD4BD /* sWebView.swift */; };
+		4CA56CC91C1EBC2400CCD4BD /* pWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA56CC81C1EBC2400CCD4BD /* pWebView.swift */; };
+		4CA56CCD1C1EE14300CCD4BD /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA56CCC1C1EE14300CCD4BD /* ViewControllerOne.swift */; };
+		4CA56CCF1C1EE14F00CCD4BD /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA56CCE1C1EE14F00CCD4BD /* ViewControllerTwo.swift */; };
+		4CA56CD11C1EE15C00CCD4BD /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA56CD01C1EE15C00CCD4BD /* ViewControllerThree.swift */; };
+		4CA56CD31C1EE16D00CCD4BD /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA56CD21C1EE16D00CCD4BD /* ViewControllerFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		4C198AAB1C1E79A800ADB8D1 /* cunyprime1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cunyprime1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C198AAF1C1E79A800ADB8D1 /* cunyprime1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cunyprime1UITests.swift; sourceTree = "<group>"; };
 		4C198AB11C1E79A800ADB8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C198AC11C1E7D1100ADB8D1 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4CA56CC41C1EB56B00CCD4BD /* sWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sWebView.swift; sourceTree = "<group>"; };
+		4CA56CC81C1EBC2400CCD4BD /* pWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pWebView.swift; sourceTree = "<group>"; };
+		4CA56CCC1C1EE14300CCD4BD /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		4CA56CCE1C1EE14F00CCD4BD /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		4CA56CD01C1EE15C00CCD4BD /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		4CA56CD21C1EE16D00CCD4BD /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,13 @@
 			children = (
 				4C198A8F1C1E79A800ADB8D1 /* AppDelegate.swift */,
 				4C198A911C1E79A800ADB8D1 /* ViewController.swift */,
+				4CA56CC41C1EB56B00CCD4BD /* sWebView.swift */,
+				4CA56CCC1C1EE14300CCD4BD /* ViewControllerOne.swift */,
+				4CA56CCE1C1EE14F00CCD4BD /* ViewControllerTwo.swift */,
+				4CA56CD01C1EE15C00CCD4BD /* ViewControllerThree.swift */,
+				4CA56CD21C1EE16D00CCD4BD /* ViewControllerFour.swift */,
+				4CA56CC81C1EBC2400CCD4BD /* pWebView.swift */,
+				4C198AC11C1E7D1100ADB8D1 /* WebView.swift */,
 				4C198A931C1E79A800ADB8D1 /* Main.storyboard */,
 				4C198A961C1E79A800ADB8D1 /* Assets.xcassets */,
 				4C198A981C1E79A800ADB8D1 /* LaunchScreen.storyboard */,
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA56CCD1C1EE14300CCD4BD /* ViewControllerOne.swift in Sources */,
+				4CA56CD31C1EE16D00CCD4BD /* ViewControllerFour.swift in Sources */,
+				4CA56CC91C1EBC2400CCD4BD /* pWebView.swift in Sources */,
 				4C198A921C1E79A800ADB8D1 /* ViewController.swift in Sources */,
+				4CA56CD11C1EE15C00CCD4BD /* ViewControllerThree.swift in Sources */,
+				4CA56CC51C1EB56B00CCD4BD /* sWebView.swift in Sources */,
 				4C198A901C1E79A800ADB8D1 /* AppDelegate.swift in Sources */,
+				4C198AC61C1E7D1100ADB8D1 /* WebView.swift in Sources */,
+				4CA56CCF1C1EE14F00CCD4BD /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +513,7 @@
 				4C198AB61C1E79A800ADB8D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C198AB71C1E79A800ADB8D1 /* Build configuration list for PBXNativeTarget "cunyprime1Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +522,7 @@
 				4C198AB91C1E79A800ADB8D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C198ABA1C1E79A800ADB8D1 /* Build configuration list for PBXNativeTarget "cunyprime1UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +531,7 @@
 				4C198ABC1C1E79A800ADB8D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
