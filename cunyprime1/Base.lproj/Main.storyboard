@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895" y="-471"/>
+            <point key="canvasLocation" x="895" y="-519"/>
         </scene>
         <!--Web View-->
         <scene sceneID="fhH-9j-wso">
@@ -681,6 +681,6 @@
         <image name="schedule" width="260" height="260"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ow3-T8-cGa"/>
+        <segue reference="oIz-Nz-urc"/>
     </inferredMetricsTieBreakers>
 </document>

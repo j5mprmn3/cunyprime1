@@ -1,1 +1,1 @@
-Run cunyprime1 on mac OSX, Xcode 7, iOS 9.0
+Run cunyprime1.xodeproj on mac OSX, Xcode 7, iOS 9.0
