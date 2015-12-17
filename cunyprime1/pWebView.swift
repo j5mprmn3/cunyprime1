@@ -20,7 +20,7 @@ class pWebView: UIViewController, UIWebViewDelegate {
         
         pWebView.delegate = self
         
-        let url = NSURL(string: "https://safe-dusk-8588.herokuapp.com/#")
+        let url = NSURL(string: "https://cunyprime.herokuapp.com/index.html?which=profile")
         let request = NSURLRequest(URL: url!)
         pWebView.loadRequest(request)
     }

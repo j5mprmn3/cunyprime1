@@ -20,7 +20,7 @@ class sWebView: UIViewController, UIWebViewDelegate {
         
         sWebView.delegate = self
         
-        let url = NSURL(string: "https://safe-dusk-8588.herokuapp.com/#")
+        let url = NSURL(string: "https://cunyprime.herokuapp.com/index.html?which=schedule")
         let request = NSURLRequest(URL: url!)
         sWebView.loadRequest(request)
     }
